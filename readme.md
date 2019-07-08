@@ -15,9 +15,9 @@ git clone < project-url.git >
 ```
 - After cloning this project, go to the folder.
 ```
-cd playlist_app_v2
+cd Playlist
 ```
-- Install all dependencies that are used by playlist_app_v2.
+- Install all dependencies that are used by Playlist.
 ```
 npm install
 ```
