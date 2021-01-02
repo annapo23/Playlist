@@ -16,7 +16,7 @@ export default class Playlist extends React.Component<Props> {
         <TouchableOpacity>
           <Text style={styles.playlistName} onPress={() => this.props.navigation.navigate('SongList', {playlist: this.props.value.playlist, songs: this.props.value.songs, color: this.props.value.color})}>{this.props.value.playlist}</Text>
         </TouchableOpacity>
-        <Text style={styles.songsLength}>{this.props.value.songs.length}</Text>
+        <Text style={styles.songsLength}>{this.props.value.songs.length} Hello</Text>
       </View>
     );
   }
